@@ -1,0 +1,19 @@
+.ml-auto {
+  margin-right: 50px;
+}
+.flexContainerRow {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.textEcran2 {
+  max-width: 500px;
+}
+.flexContainerCol {
+  padding: 0 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
