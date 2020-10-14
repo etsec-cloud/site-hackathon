@@ -7,9 +7,20 @@
 
 #title {
   font-family: "Gilroy-ExtraBold";
-  color: aqua;
+
+}
+
+.profil-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
   
 }
+
+.description-ekip {
+  padding-left: 20px;
+}
+
 .ml-auto {
   margin-right: 50px;
 }
@@ -17,7 +28,30 @@
   height: 100vh;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
+}
+.title {
+  font-family: "Gilroy-Bold";
+  font-size: 65px;
+}
+.text {
+  font-family: "Gilroy-Light";
+  font-size: 30px;
+}
+.padding30 {
+  padding: 30px;
+}
+.bgGreen {
+  background: url(./assets/imgs/bgGreen.png);
+  background-position: top;
+  background-size: 100% 85%;
+  background-repeat: no-repeat;
+}
+.bgColorGreen {
+  background-color: #a8dd49;
+}
+.colorGreen {
+  color: #a8dd49;
 }
 .textEcran2 {
   max-width: 500px;
@@ -28,4 +62,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+/*import font*/
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("./assets/fonts/Gilroy-Light.otf");
+
+  font-family: "Gilroy-Bold";
+  src: url("./assets/fonts/Gilroy-ExtraBold.otf");
 }
