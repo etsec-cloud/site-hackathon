@@ -1,6 +1,13 @@
 .ml-auto {
   margin-right: 50px;
 }
+.nav-item {
+  color: white !important;
+}
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .flexContainerRow {
   height: 100vh;
   display: flex;
@@ -26,6 +33,10 @@
 }
 .bgColorGreen {
   background-color: #a8dd49;
+}
+
+.bgColorBlack {
+  background-color: #272727;
 }
 .colorGreen {
   color: #a8dd49;
