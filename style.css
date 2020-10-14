@@ -6,17 +6,29 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+}
+.title {
+  font-family: "Gilroy-Bold";
+  font-size: 40px;
+}
+.text {
   font-family: "Gilroy-Light";
+  font-size: 30px;
 }
-.paddingTop {
-  padding-top: 30px;
+.padding30 {
+  padding: 30px;
 }
-
 .bgGreen {
   background: url(./assets/imgs/bgGreen.png);
   background-position: top;
   background-size: 100% 85%;
   background-repeat: no-repeat;
+}
+.bgColorGreen {
+  background-color: #a8dd49;
+}
+.colorGreen {
+  color: #a8dd49;
 }
 .textEcran2 {
   max-width: 500px;
@@ -32,4 +44,7 @@
 @font-face {
   font-family: "Gilroy-Light";
   src: url("./assets/fonts/Gilroy-Light.otf");
+
+  font-family: "Gilroy-Bold";
+  src: url("./assets/fonts/Gilroy-ExtraBold.otf");
 }
