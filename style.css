@@ -65,6 +65,11 @@ input {
 .padding30 {
   padding: 30px;
 }
+
+.profil-container .active {
+  border: 5px solid red;
+}
+
 .bgGreen {
   background: url(./assets/imgs/bgGreen.png);
   background-position: top;
@@ -92,6 +97,14 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.carousel-inner {
+  width: 30%;
+}
+
+.carousel-inner img  {
+  border-radius: 20px;
 }
 
 .flexRow {
@@ -128,6 +141,8 @@ a,
 .fa-linkedin {
   color: white;
 }
+
+
 /* i {
   font-size: 24px;
 } */
