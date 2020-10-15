@@ -36,7 +36,8 @@
 }
 
 .bgColorBlack {
-  background-color: #272727;
+  /* background-color: #272727; */
+  background: #944d1b;
 }
 .colorGreen {
   color: #a8dd49;
@@ -51,6 +52,44 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+.flexRow {
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  background-image: url(./assets/imgs/bgBrown.png);
+  background-position: bottom;
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+
+.gauche {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 0.5;
+}
+.droit {
+  display: flex;
+  justify-content: space-evenly;
+}
+.item {
+  padding-left: 20px;
+}
+a,
+.item {
+  text-decoration: none;
+  color: white !important;
+}
+.fa-instagram,
+.fa-linkedin {
+  color: white;
+}
+/* i {
+  font-size: 24px;
+} */
 /*import font*/
 @font-face {
   font-family: "Gilroy-Light";
