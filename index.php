@@ -68,16 +68,26 @@
         </p>
       </div>
 
-      <form action="" method="get" class="form">
+      <form action="" method="post" class="form">
         <div class="colForm">
-          <label for="name">Entrez votre mail pour avoir des infos: </label>
-          <input type="text" name="name" id="name" required>
-          <button type="button" class="btn">Envoyer</button>
+          <label for="email">Entrez votre mail pour avoir des infos: </label>
+          <input type="email" name="email" id="email" required>
+          <button type="submit" class="btn">Envoyer</button>
         </div>
       </form>
-
       <img src="./assets/imgs/logo.png" />
     </div>
+
+    <?php
+      if(isset($_POST['email'])) {
+         include("mailer.php");
+         echo "success";
+      }
+      else{
+        echo "plog";
+      }
+      ?>
+      
     <!-- Fin 1 ECRAN -->
     <!-- 2 ECRAN -->
     <div class="flexContainerRow" id="section2">
@@ -96,6 +106,7 @@
         </p>
       </div>
     </div>
+    
     <!-- Fin 2 ECRAN -->
     <!-- 3 ECRAN -->
     <div class="flexContainerCol" id="section3">
@@ -186,15 +197,15 @@
                 henderit.</p>
 
               <div class="profil-container" id="profilContainer">
-                <img class="active" src="assets/imgs/aurelien.png"></img>
-                <img src="assets/imgs/ambre.png"></img>
-                <img src="assets/imgs/Etienne.jpeg"></img>
-                <img src="assets/imgs/ryad.jpg"></img>
-                <img src="assets/imgs/Domitille.jpg"></img>
-                <img src="assets/imgs/julien.png"></img>
-                <img src="assets/imgs/paul.jpeg"></img>
-                <img src="assets/imgs/alexandre.jpg"></img>
-                <img src="assets/imgs/marvin.png"></img>
+                <img class="active" src="assets/imgs/aurelien.png">
+                <img src="assets/imgs/ambre.png">
+                <img src="assets/imgs/Etienne.jpeg">
+                <img src="assets/imgs/ryad.jpg">
+                <img src="assets/imgs/Domitille.jpg">
+                <img src="assets/imgs/julien.png">
+                <img src="assets/imgs/paul.jpeg">
+                <img src="assets/imgs/alexandre.jpg">
+                <img src="assets/imgs/marvin.png">
 
               </div>
           </div>
@@ -206,6 +217,8 @@
       </div>
     </div>
   </div>
+</div>
+
     <!-- Fin 5 ECRAN -->
     <!-- Footer -->
     <div class="flexRow">
