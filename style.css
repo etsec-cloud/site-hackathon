@@ -8,6 +8,10 @@
 #title {
   font-family: "Gilroy-ExtraBold";
 }
+.image {
+  height: 70vh;
+  border-radius: 2px;
+}
 
 .profil-container img {
   width: 60px;
@@ -103,7 +107,7 @@ input {
   width: 30%;
 }
 
-.carousel-inner img  {
+.carousel-inner img {
   border-radius: 20px;
 }
 
@@ -130,9 +134,9 @@ input {
   padding: 0 100px;
 }
 
-.gauche p, .droit p{
+.gauche p,
+.droit p {
   margin: 0 10px;
-  
 }
 .droit {
   display: flex;
@@ -153,7 +157,7 @@ a,
   color: white;
 }
 
-.tofooter{
+.tofooter {
   height: 50vh;
 }
 
