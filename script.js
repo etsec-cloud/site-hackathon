@@ -18,3 +18,9 @@ function myFunction() {
     document.getElementById("navbar").classList.remove("bgColorBlack");
   }
 }
+
+$('.carousel').carousel({
+  interval: 2000
+})
+
+

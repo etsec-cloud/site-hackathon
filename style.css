@@ -74,6 +74,14 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+.carousel-inner {
+  width: 30%;
+}
+
+.carousel-inner img  {
+  border-radius: 20px;
+}
 /*import font*/
 @font-face {
   font-family: "Gilroy-Light";
