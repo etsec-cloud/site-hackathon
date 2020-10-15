@@ -172,3 +172,36 @@ a,
   font-family: "Gilroy-Bold";
   src: url("./assets/fonts/Gilroy-ExtraBold.otf");
 }
+
+@media screen and (max-width: 640px) {
+  .flexContainerRow {
+    height: auto;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    margin-bottom: 200px;
+    padding: 0 20px;
+  }
+  .image2 {
+    width: 100%;
+  }
+  .gauche {
+    display: none;
+  }
+  .form {
+    position: static;
+  }
+  .image {
+    height: auto;
+    width: 100%;
+  }
+  .gauche,
+  .droit {
+    padding: 0;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
