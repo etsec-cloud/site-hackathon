@@ -131,12 +131,12 @@
     <!-- Fin 4 ECRAN -->
 
     <!-- 5 ECRAN -->
-    <div class="flexContainerRow" id="section1">
+    <div class="flexContainerRow flex-column " id="section1">
       <div class="flexContainerCol">
           <h1 class="title">Notre Equipes</h1>
       
      
-      <div class="flexContainerRow">
+      <div class="flexContainerRow tofooter">
          
 
      
@@ -210,10 +210,6 @@
               </div>
           </div>
         </div>
-  
-        <!---->
-           
-          
       </div>
     </div>
   </div>
@@ -222,30 +218,31 @@
     <!-- Fin 5 ECRAN -->
     <!-- Footer -->
     <div class="flexRow">
-      <div class="gauche">
-        <a href="#"
-          ><img src="assets/imgs/logo.png" width="40" height="40" alt=""
-        /></a>
-        <a href="#">
-          <p>Politique de confidentialité</p>
-        </a>
-        <a href="#">
-          <p>Mentions légales</p>
-        </a>
+     <div class="d-flex">
+        <div class="gauche">
+          <a href="#"
+            ><img src="assets/imgs/logo.png" width="40" height="40" alt=""
+          /></a>
+          <a href="#">
+            <p>Politique de confidentialité</p>
+          </a>
+          <a href="#">
+            <p>Mentions légales</p>
+          </a>
+        </div>
+        <div class="droit">
+          <a class="item">
+            <p>Support</p>
+          </a>
+          <a class="item">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a class="item">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
-      <div class="droit">
-        <a class="item">
-          <p>Support</p>
-        </a>
-        <a class="item">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a class="item">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-    <!-- Footer -->
+     </div>
   </body>
 
 
