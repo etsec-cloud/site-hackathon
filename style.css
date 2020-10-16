@@ -205,3 +205,11 @@ a,
     font-size: 30px;
   }
 }
+
+.error{
+  color: red;
+}
+
+.reussir{
+  color: green;
+}

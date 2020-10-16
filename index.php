@@ -1,3 +1,4 @@
+<?php require_once 'inc/traitementForCo.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -66,6 +67,10 @@
           <label for="email">Entrez votre mail pour avoir des infos: </label>
           <input type="email" name="email" id="email" required />
           <button type="submit" class="btn">Envoyer</button>
+          <?php
+						echo "<div class='error'>$error</div>";
+						echo "<div class='reussir'>$reussir</div>"
+						?>
         </div>
       </form>
       <div>
