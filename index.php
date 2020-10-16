@@ -133,7 +133,7 @@
 
     <!-- 4 ECRAN -->
     <div class="flexContainerRow" id="section4">
-      <img class="image" src="assets/imgs/sachet.jpg" />
+      <img class="image" src="assets/imgs/sachet.png" />
       <div class="textEcran2">
         <h1 class="title">Pack starter</h1>
         <p class="text">
