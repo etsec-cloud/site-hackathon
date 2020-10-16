@@ -1,4 +1,4 @@
-<?php require_once 'inc/traitementForCo.php'; ?>
+<?php require_once 'inc/traitementForCo.php';?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

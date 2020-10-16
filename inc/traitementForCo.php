@@ -1,6 +1,4 @@
-
 <?php
-
 $error="";
 $reussir="";
 require_once 'email.php';
