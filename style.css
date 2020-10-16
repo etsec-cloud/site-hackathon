@@ -78,7 +78,6 @@
 input {
   width: 90%;
 }
-
 .btn {
   margin-top: 20px;
   background-color: #a8dd49;
@@ -254,7 +253,9 @@ a,
 @media screen and (max-width: 1160px) {
 .height{
   min-height: 110vh;
- 
+}
+.andimg img{
+  height: unset;
 }
 .wrapper{
   display: flex;
