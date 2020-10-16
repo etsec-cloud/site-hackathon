@@ -9,6 +9,13 @@
   src: url("assets/fonts/Gilroy-ExtraBold.otf");
 }
 
+.wrapper{
+  display: flex;
+}
+
+.under-wrapper{
+  padding: 0 200px;
+}
 #title {
   font-family: "Gilroy-ExtraBold";
 }
@@ -34,9 +41,6 @@
 	cursor: pointer;
 }
 
-.perso-description {
-  
-}
 .ml-auto {
   margin-right: 50px;
 }
@@ -182,6 +186,9 @@ a,
 .tofooter {
   height: 50vh;
 }
+.wrapper-slider{
+  padding-left: 3rem;
+  }
 
 /* i {
   font-size: 24px;
@@ -200,7 +207,7 @@ a,
     height: auto;
     flex-direction: column-reverse;
     align-items: baseline;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
     padding: 0 20px;
   }
   .image2 {
@@ -226,6 +233,64 @@ a,
   .title {
     font-size: 30px;
   }
+
+  .flexContainerCol{
+    padding: 0 20px;
+  }
+  .heightForRespo{
+    height: unset;
+    padding: 0 20px;
+  }
+
+  .wrapper-slider{
+    padding-left: unset!important;
+    flex-direction: column;
+    }
+  .col{
+    flex-basis: unset!important;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+.height{
+  min-height: 110vh;
+ 
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.under-wrapper{
+  padding:0 30px
+}
+
+.under-wrapper .image{
+  width: 40%;
+}
+
+form{
+  position: unset;
+  display: flex;
+  align-items: center;
+}
+
+.flexContainerRow{
+  height: unset;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 20px 0;
+}
+
+.textEcran2{
+  max-width: unset;
+  width: calc(100% - 40px);
+  margin: 0 20px;
+}
+.ecran2{
+  flex-direction: column;
+}
 }
 
 .error{

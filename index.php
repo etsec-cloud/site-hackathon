@@ -74,14 +74,18 @@
 						?>
         </div>
       </form>
-      <div>
-        <h1 class="title">Plantsters</h1>
-        <p class="text">
-          Plant to win<br />Un jeu mobile connecté au monde réel
-        </p>
+      <div class="wrapper">
+          <div class="under-wrapper">
+            <h1 class="title">Plantsters</h1>
+            <p class="text">
+              Plant to win<br />Un jeu mobile connecté au monde réel
+            </p>
+          </div>
+        
+         <div class="under-wrapper">
+            <img class="image" src="./assets/imgs/plante.jpg" />
+         </div>
       </div>
-
-      <img class="image" src="./assets/imgs/plante.jpg" />
     </div>
     <!-- Fin 1 ECRAN -->
     <!-- 2 ECRAN -->
@@ -101,7 +105,7 @@
         </p>
       </div>
     </div>
-    <div class="flexContainerRow" id="section2">
+    <div class="flexContainerRow ecran2" id="section2">
       <div class="textEcran2">
         <p class="text">
           Ces créatures grandissaient au fur et à mesure que les humains
@@ -146,13 +150,13 @@
     <!-- Fin 4 ECRAN -->
 
     <!-- 5 ECRAN -->
-    <div class="flexContainerRow" id="section1">
-      <div class="flexContainerCol">
+    <div class="flexContainerRow height" id="section1">
+      <div class="flexContainerCol heightForRespo">
           <h1 class="title  text-center mb-5">Notre Equipes</h1>
       
       <div class="flexContainerRow">
           
-       <div class="row pl-5 w-75">
+       <div class="row wrapper-slider">
         <div class="col">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
                
@@ -217,7 +221,7 @@
                
               <div class="profil-container" id="profilContainer">
 
-                <div class="flexContainerRow">
+                <div class="d-flex justify-content-around align-items-start flex-wrap">
                 <button  class="carousel-Indicator"  data-target="#carouselExampleIndicators" data-slide-to="0">
                     <img id="cI1" class="active" src="assets/imgs/aurelien.png"></img>
                 </button>
@@ -283,10 +287,10 @@
           <a class="item">
             <p>Support</p>
           </a>
-          <a class="item">
+          <a class="item" href="https://www.instagram.com/plantstersthegame/">
             <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
-          <a class="item">
+          <a class="item" href="https://www.linkedin.com/company/planststers/">
             <i class="fa fa-linkedin" aria-hidden="true"></i>
           </a>
         </div>
