@@ -5,20 +5,22 @@
 } */
 
 @font-face {
-    font-family: "Gilroy-ExtraBold";
-    src: url("assets/fonts/Gilroy-ExtraBold.otf");
+  font-family: "Gilroy-ExtraBold";
+  src: url("assets/fonts/Gilroy-ExtraBold.otf");
 }
 
 #title {
   font-family: "Gilroy-ExtraBold";
-
+}
+.image {
+  height: 70vh;
+  border-radius: 2px;
 }
 
 .profil-container img {
   width: 60px;
   height: 60px;
   border-radius: 20px;
-  
 }
 
 .description-part {
@@ -59,6 +61,25 @@
   font-family: "Gilroy-Light";
   font-size: 30px;
 }
+.form {
+  position: absolute;
+  top: 60vh;
+  left: 3vw;
+}
+.colForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  width: 90%;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #a8dd49;
+  color: white;
+}
 .padding30 {
   padding: 30px;
 }
@@ -77,6 +98,7 @@
   background-position: top;
   background-size: 100% 85%;
   background-repeat: no-repeat;
+  position: relative;
 }
 .bgColorGreen {
   background-color: #a8dd49;
@@ -105,14 +127,16 @@
   
 }
 
-.carousel-inner img  {
+.carousel-inner img {
   border-radius: 20px;
   min-width: 30px;
   min-height: 30px;
 }
 
 .flexRow {
-  height: 20vh;
+  min-height: 200px;
+  padding: 20px 0;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-grow: 1;
@@ -127,11 +151,20 @@
 .gauche {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   flex-grow: 0.5;
+  padding: 0 100px;
+}
+
+.gauche p,
+.droit p {
+  margin: 0 10px;
 }
 .droit {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  padding: 0 100px;
 }
 .item {
   padding-left: 20px;
@@ -146,6 +179,9 @@ a,
   color: white;
 }
 
+.tofooter {
+  height: 50vh;
+}
 
 /* i {
   font-size: 24px;
@@ -157,4 +193,45 @@ a,
 
   font-family: "Gilroy-Bold";
   src: url("./assets/fonts/Gilroy-ExtraBold.otf");
+}
+
+@media screen and (max-width: 640px) {
+  .flexContainerRow {
+    height: auto;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    margin-bottom: 200px;
+    padding: 0 20px;
+  }
+  .image2 {
+    width: 100%;
+  }
+  .gauche {
+    display: none;
+  }
+  .form {
+    position: static;
+  }
+  .image {
+    height: auto;
+    width: 100%;
+  }
+  .gauche,
+  .droit {
+    padding: 0;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+
+.error{
+  color: red;
+}
+
+.reussir{
+  color: green;
 }

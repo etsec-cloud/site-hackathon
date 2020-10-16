@@ -49,7 +49,7 @@ cI1.onclick =  function() {
 
 cI2.onclick =  function() {
   $("#persoDescription").html(description2);
-  $("#descriptionName").html("Ambre");
+  $("#descriptionName").html("Ambre Rolland");
 }
 
 cI3.onclick =  function() {
