@@ -82,7 +82,7 @@
             </p>
           </div>
         
-         <div class="under-wrapper">
+         <div class="under-wrapper andimg">
             <img class="image" src="./assets/imgs/plante.jpg" />
          </div>
       </div>
@@ -246,7 +246,7 @@
                 <button  class="carousel-Indicator" id="cI7"  data-target="#carouselExampleIndicators" data-slide-to="6">
                   <img src="assets/imgs/paul.jpeg"></img>
               </button>
-              <button class="carousel-Indicator"  data-target="#carouselExampleIndicators" data-slide-to="7">
+              <button class="carousel-Indicator"  iddata-target="#carouselExampleIndicators" data-slide-to="7">
                 <img data-target data-target="#carouselExampleIndicators" data-slide-to="7" src="assets/imgs/alexandre.jpg"></img>
               </button>
               <button  class="carousel-Indicator" id="cI8" data-target="#carouselExampleIndicators" data-slide-to="8">

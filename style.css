@@ -265,6 +265,9 @@ a,
 .under-wrapper{
   padding:0 30px
 }
+.andimg{
+  text-align: center;
+}
 
 .under-wrapper .image{
   width: 40%;
