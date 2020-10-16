@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Plantsters | Plant to win</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="assets/imgs/logo.png"/>
     <link
       rel="stylesheet"
       href="./assets/font-awesome/css/font-awesome.min.css"
